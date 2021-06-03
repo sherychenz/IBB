@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_ibb"
-    tools:context=".AdminPage">
+    tools:context=".AdminPageActivity">
 
     <androidx.cardview.widget.CardView
         android:layout_width="0dp"
@@ -59,7 +59,7 @@
                 android:layout_height="match_parent" />
 
             <EditText
-                android:id="@+id/editTextTextPassword"
+                android:id="@+id/Password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"

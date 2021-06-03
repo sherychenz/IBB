@@ -34,7 +34,7 @@
                 app:srcCompat="@drawable/logo_ibb" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName"
+                android:id="@+id/Username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -43,7 +43,7 @@
                 android:paddingLeft="15dp" />
 
             <EditText
-                android:id="@+id/editTextTextPassword"
+                android:id="@+id/Password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
@@ -58,6 +58,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:foregroundGravity="center"
+                android:onClick="Login"
                 app:cardBackgroundColor="#FFEB3B"
                 app:cardCornerRadius="25dp">
 

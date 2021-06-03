@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.IBB">
-        <activity android:name=".AdminPage2"></activity>
-        <activity android:name=".AdminMenu" />
-        <activity android:name=".OwnerPage" />
-        <activity android:name=".AdminPage" />
+        <activity android:name=".AdminPage2Activity"></activity>
+        <activity android:name=".AdminMenuActivity" />
+        <activity android:name=".OwnerPageActivity" />
+        <activity android:name=".AdminPageActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

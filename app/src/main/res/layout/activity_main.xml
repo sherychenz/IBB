@@ -43,7 +43,7 @@
                 android:paddingLeft="15dp" />
 
             <EditText
-                android:id="@+id/Password"
+                android:id="@+id/ProductNameText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
@@ -63,7 +63,7 @@
                 app:cardCornerRadius="25dp">
 
                 <TextView
-                    android:id="@+id/Signout"
+                    android:id="@+id/SignIn"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:fontFamily="sans-serif-black"

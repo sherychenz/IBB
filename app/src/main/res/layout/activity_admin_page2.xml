@@ -34,36 +34,38 @@
                 app:srcCompat="@drawable/logo_ibb" />
 
             <EditText
-                android:id="@+id/Password"
+                android:id="@+id/ProductNameText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:ems="10"
                 android:hint="Product Name"
-                android:inputType="textPassword"
+                android:inputType="text"
                 android:paddingLeft="15dp" />
 
             <EditText
-                android:id="@+id/editTextTextPassword2"
+                android:id="@+id/NewStockText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:ems="10"
                 android:hint="Stock"
-                android:inputType="textPassword"
+                android:inputType="number"
                 android:paddingLeft="15dp" />
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/SignIn"
                 android:layout_width="250dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:foregroundGravity="center"
                 app:cardBackgroundColor="#FFEB3B"
-                app:cardCornerRadius="25dp">
+                app:cardCornerRadius="25dp"
+                tools:ignore="DuplicateIds">
 
                 <TextView
-                    android:id="@+id/Signout"
+                    android:id="@+id/SignIn"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:fontFamily="sans-serif-black"

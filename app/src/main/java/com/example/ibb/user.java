@@ -22,7 +22,6 @@ import java.util.Map;
 public class user {
 
     private static final String URL = "https://latihan000.000webhostapp.com/login.php";
-    private static final String URL_REGISTER = "https://latihan000.000webhostapp.com/register.php";
 
     private String ID;
     private String Username;

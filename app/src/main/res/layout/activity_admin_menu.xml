@@ -35,8 +35,9 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/Product"
-                android:layout_width="350dp"
+                android:layout_width="300dp"
                 android:layout_height="50dp"
+                android:layout_gravity="center"
                 android:onClick="AddNewProduct"
                 app:cardBackgroundColor="#FFEB3B"
                 app:cardCornerRadius="25dp">
@@ -51,7 +52,7 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/Stock"
-                android:layout_width="350dp"
+                android:layout_width="300dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
@@ -62,6 +63,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_gravity="center"
                     android:fontFamily="sans-serif-black"
                     android:gravity="center"
                     android:onClick="UpdateStock"
@@ -70,7 +72,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/Signout"
+                android:id="@+id/SignIn"
                 android:layout_width="150dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"

@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         UserNameTx = findViewById(R.id.Username);
-        PasswordTx = findViewById(R.id.Password);
+        PasswordTx = findViewById(R.id.ProductNameText);
     }
     public void Login(View view){
         Username = UserNameTx.getText().toString().trim();

@@ -47,7 +47,7 @@
                 app:cardCornerRadius="25dp">
 
                 <TextView
-                    android:id="@+id/Signout"
+                    android:id="@+id/SignIn"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:fontFamily="sans-serif-black"
